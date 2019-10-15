@@ -1,0 +1,19 @@
+public class BiodataWarokDroid {
+
+    public static void main(String[] args) {
+        String nama;
+        int umur;
+        String alamat;
+
+        nama = "Warok Droid";
+        umur = 1;
+        alamat = "Bungka, Ponorogo, East Java";
+
+        final String TANGGAL_LAHIR = "2 Maret 2018";
+
+        System.out.println("Nama saya adalah " + nama);
+        System.out.print("Saya berumur " + umur + "tahun ");
+        System.out.println("dan beralamat di " + alamat);
+        System.out.println("Selain itu, saya lahir pada tanggal " + TANGGAL_LAHIR);
+    }
+}
