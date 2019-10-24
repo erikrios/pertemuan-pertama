@@ -1,0 +1,16 @@
+package com.warokdroid.chapter1
+
+fun main() {
+    println("Hello, World!!!")
+
+    CthCompanion.cetakNama()
+
+    val alamat : CthCompanion = CthCompanion()//utk membuat objek
+    alamat.cetakAlamat()
+
+    val umur : CthCompanion = CthCompanion()
+    umur.cetakUmur()
+
+    print(CthCompanion.kelas)
+
+}
