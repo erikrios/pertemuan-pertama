@@ -1,0 +1,39 @@
+package sample;
+
+public class HelloWord {  //deklarasi kelas
+    public static void main(String[] args) { //method main
+        System.out.println("Hello, World");
+
+
+        Integer umur; //deklarasi 'references
+        umur = 18; //inisialisasi
+
+        String nama = "andrmust"; //variabel initialises 'primitif
+
+        System.out.println(nama.length());
+        System.out.println(umur.equals(18));
+
+        String umurString = umur.toString(); //konversi integer ke string
+        System.out.println(umurString);
+
+
+        System.out.println("nilai minimal dari integer adalah " + Integer.MIN_VALUE);
+        System.out.println("nilai maksimal dari integer adalah " + Integer.MAX_VALUE);
+
+        double tinggiBadan;
+        tinggiBadan = 165.8;
+        System.out.println(tinggiBadan);
+
+        tinggiBadan = 170.5;
+        System.out.println(tinggiBadan);
+
+        final int NOMOR_INDUK_KEPENDUDUKAN = 1111111111;
+        System.out.println(NOMOR_INDUK_KEPENDUDUKAN);
+
+        ContohMethod();
+
+    }
+
+
+    }
+}
